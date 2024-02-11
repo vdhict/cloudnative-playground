@@ -76,5 +76,6 @@ flux bootstrap github \
   --token-auth \
   --owner=vdhict \
   --repository=cloudnative-playground \
-  --path=kubernetes/fluxcd/repositories/infra/clusters/dev-cluster \
-  --personal
+  --path=kubernetes/fluxcd/repositories/clusters/dev-cluster \
+  --personal \
+  --force
