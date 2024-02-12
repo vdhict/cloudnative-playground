@@ -7,7 +7,7 @@ spec:
   interval: 30m
   chart:
     spec:
-      chart: stack
+      chart: tinkerbell/stack
       sourceRef:
         kind: GitRepository
         name: tinkerbell
