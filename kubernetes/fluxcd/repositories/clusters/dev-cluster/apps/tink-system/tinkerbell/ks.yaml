@@ -5,7 +5,7 @@ metadata:
   name: &app tinkerbell
   namespace: flux-system
 spec:
-  targetNamespace: deployment
+  targetNamespace: tink-system
   commonMetadata:
     labels:
       app.kubernetes.io/name: *app
