@@ -2,10 +2,10 @@
 
 ## Create Demo Cluster
 
-Using [kind](https://kind.sigs.k8s.io/) </br>
+Using [k3d](https://k3d.io/) </br>
 
 ```
-kind create cluster --name fluxcd --image kindest/node:v1.27.3
+k3d cluster create fluxcd
 ```
 ## Run a container to work in
 
