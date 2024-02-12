@@ -11,6 +11,6 @@ spec:
   sourceRef:
     kind: GitRepository
     name: flux-system
-  path: ./repositories
+  path: ./kubernetes/fluxcd/repositories/clusters/dev-cluster/repositories
   prune: true
   wait: true
