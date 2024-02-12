@@ -9,7 +9,7 @@ spec:
     spec:
       chart: stack
       sourceRef:
-        kind: HelmRepository
+        kind: GitRepository
         name: tinkerbell
         namespace: flux-system
   maxHistory: 2
