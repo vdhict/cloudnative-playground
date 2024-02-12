@@ -9,7 +9,7 @@ spec:
   commonMetadata:
     labels:
       app.kubernetes.io/name: *app
-  path: ./apps/tink-system/tinkerbell/app
+  path: ./kubernetes/fluxcd/repositories/clusters/dev-cluster/apps/tink-system/tinkerbell/app
   prune: true
   sourceRef:
     kind: GitRepository
